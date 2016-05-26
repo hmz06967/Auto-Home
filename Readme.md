@@ -1,0 +1,2 @@
+<b>Merhaba arkadaþlar projeyle ilgili video yakýn zamanda hazýrlayýp burada linkini paylaþacaðým projeyi çalýþtýrmak için web sitesine, bir internete ve bilgisayara ihtiyacýnýz olacak. Aþaðýda belirtiðim dosyalar üzerinde oynama yaparak kiþiselleþtirebilirsiniz.</b>
+ 
