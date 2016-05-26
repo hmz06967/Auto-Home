@@ -1,2 +1,1 @@
-<b>Merhaba arkadaşlar projeyle ilgili video yakın zamanda hazırlayıp burada linkini paylaşacağım projeyi çalıştırmak için web sitesine, bir internete ve bilgisayara ihtiyacınız olacak. Aşağıda belirtiğim dosyalar üzerinde oynama yaparak kişiselleştirebilirsiniz.</b>
- 
+Merhaba arkadaÅŸlar projeyle ilgili video yakÄ±n zamanda hazÄ±rlayÄ±p burada linkini paylaÅŸacaÄŸÄ±m projeyi Ã§alÄ±ÅŸtÄ±rmak iÃ§in web sitesine, bir internete ve bilgisayara ihtiyacÄ±nÄ±z olacak. AÅŸaÄŸÄ±da belirtiÄŸim dosyalar Ã¼zerinde oynama yaparak kiÅŸiselleÅŸtirebilirsiniz.
