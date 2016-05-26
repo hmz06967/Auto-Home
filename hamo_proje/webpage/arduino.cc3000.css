@@ -1,0 +1,357 @@
+.checkbox{display:none}
+.switch
+{
+width: 62px;
+height: 32px;
+background: #E5E5E5;
+z-index: 0;
+margin: 0;
+padding: 0;
+appearance: none;
+border: none;
+cursor: pointer;
+position: relative;
+border-radius:16px; 
+-moz-border-radius:16px; 
+-webkit-border-radius:16px; 
+}
+.switch:before
+{
+content: ' ';
+position: absolute;
+left: 1px;
+top: 1px;
+width: 60px;
+height: 30px;
+background: #FFFFFF;
+z-index: 1;
+border-radius:16px; 
+-moz-border-radius:16px; 
+-webkit-border-radius:16px; 
+}
+.switch:after 
+{
+content: ' ';
+height: 29px;
+width: 29px;
+border-radius: 28px;
+background: #FFFFFF;
+position: absolute;
+z-index: 2;
+top: 1px;
+left: 1px;
+-webkit-transition-duration: 300ms;
+transition-duration: 300ms;
+-webkit-box-shadow: 0 2px 5px #999999;
+box-shadow: 0 2px 5px #999999;
+}
+.switchOn , .switchOn:before
+{
+background: #4cd964 !important;
+}
+.switchOn:after
+{
+left: 32px !important;
+}
+
+body,html {
+    background: #ECF6FF;
+    font-family: arial,sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.head-main {
+    position: relative;
+    top: 0;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    background: #138388;
+    color: #F7F7F7;
+    border-bottom: 1px solid #8E8E8E;
+    box-shadow: 0 1px 4px #3E3E3E;
+}
+h1 {
+    color: #FFFFFF;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+.nav-main {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-width: 300px;
+    text-align: center;
+    text-align: -webkit-center;
+    background: #fff;
+    height: 250px;
+    box-shadow: 0 3px 3px #ddd;
+	overflow: auto;
+	position:relative;
+}
+.temp-page#lm35{ overflow: auto; height: 190px;}
+.body-main {
+    margin: auto;
+    text-align: -webkit-center;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+}
+.page_null {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    padding-top: 25%;
+    color: #ddd;
+}
+
+.nav-title {
+    padding: 10px;
+    font-size: 24px;
+    font-family: cursive;
+    background: #F1F1F1;
+    color: #1892EC;
+    border-bottom: 1px solid #ddd;
+}
+
+.durum-page {
+    background: #F3F3F3;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DAD8D8;
+    margin: 5px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.pot-durum {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(36, 183, 49, 0.72);
+    text-align: -webkit-center;
+    margin-top: 60px;
+    text-shadow: 0 4px 4px;
+}
+
+label.led-switch {position: relative;margin-left: 48px;}
+
+.led-status-ikon {
+    border: 1px solid #ddd;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 2px 2px #ddd;
+    background: #FFF;
+}
+
+label.durum-setting {
+    display: inline-block;
+    /* margin: 5px; */
+}
+
+.control-main {
+    padding: 5px;
+}
+
+.control-titles {
+    font-size: 12px;
+    font-family: monospace;
+    background: #1892EC;
+    color: #fff;
+    padding: 5px;
+}
+
+label {}
+
+.control-titles label {
+    margin-right: 40px;
+    margin-left: 35px;
+}
+
+.user-body {
+    min-width: 120px;
+    /* height: 80px; */
+    display: inline-block;
+    margin: 8px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid transparent;
+    color: #828282;
+    font-weight: 600;
+}
+
+.user-image {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    display: inline-block;
+    box-shadow: 0 2px 4px #6F6F6F;
+}
+
+.user-title {
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    top: 5px;
+}
+.user-image.logo {
+    background: url(https://www.you-mp3.net/test/arduino/images/Arduino.png) no-repeat;
+    background-size: cover;
+    float: left;
+}
+.user-image.hamza {
+    background: url(https://www.you-mp3.net/test/arduino/images/hamza.jpg) no-repeat;
+    background-size: cover;
+}
+
+.user-body:hover {
+    background: #ECECEC;
+    cursor: pointer;
+    border-radius: 4px;
+    border-bottom: 1px solid#ddd;
+}
+
+.footer-main {
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #E4E4E4;
+    margin-top: 10px;
+    height: 100%;
+    text-align: -webkit-center;
+    text-align: center;
+}
+
+.analog-data {
+    margin: 5px;
+    padding: 4px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.analog-data span.temp {
+    color: #EC0BBA;
+}
+
+.error-main {
+    position: absolute;
+    background: #B32323;
+    padding: 10px;
+    color: #fff;
+    width: 280px;
+    bottom: 10px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top: 1px solid #DC1212;
+    display: none;
+}
+
+
+.led_on .led-status-ikon {
+    background: #4CD964;
+}
+.veri .page_null,table.highchart{
+	display:none;
+}
+.error-main span._nbr {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 600;
+    background: #9A0101;
+    width: 40px;
+    margin-top: -1px;
+    padding-top: 11px;
+    height: 27px;
+    border-radius: 50px;
+    margin-left: 2px;
+}
+.analog-data.select {
+    background: #F4FF59;
+    border-left: 4px solid #C4D206;
+}
+.nav-content-main {
+	
+    min-height: 54px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.syn_buton {
+	    display: inline-block;
+	cursor:pointer;
+    background: #1892EC;
+    width: 88px;
+    color: #fff;
+    border: 1px solid;
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 5px;
+	margin-right:5px;
+    border-radius: 4px;
+}
+label.durum-any-set {
+    display: inline-block;
+    margin: 5px;
+}
+
+div#auto_st {
+    float: right;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+input.ynl_in {
+    width: 70px;
+    height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+div#aktar {
+    background: #C3A73C;
+}
+div#table_grap {
+    background: #4CD964;
+}
+.pot-progress {
+    position: absolute;
+    width: 0%;
+    bottom: 35px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: #49C353;
+    transition: all.2s ease-out;
+}
+.nav-table-main {
+    display: none;
+    top: 0;
+    background: rgba(35, 4, 4, 0.31);
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+	position:fixed;
+}
+.syn_buton.tbl-kpt {
+    background: rgba(186, 177, 177, 0);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    background: #7395BD;
+    box-shadow: 0 2px 4px #676464;
+    position: absolute;
+    right: 25px;
+}
+.led_hata .error-main.led, .on_grap .nav-table-main,.hata .error-main#error {
+    display: block;
+}
+.highcharts-container {
+	 margin: auto;
+    box-shadow: 0 2px 25px #696969;
+}
