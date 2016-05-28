@@ -136,8 +136,8 @@ function tableGet(adeg){
 
 function data_cer(data,slt){
 	var time = saat(); data = data.split("__");lm35 = data[0]; pot = data[1]; 
-	if(slt){time = data[0]; lm35 = data[1]; pot = 0;} derece =(lm35*500)/1023;	
-	$(".analog-data").removeClass("select"); remClass("hata");if(lm35 !=undefined && time !=undefined){$("#lm35").prepend('<div class="analog-data select" id="lm35">'+time+'<span class="temp"> '+derece.toPrecision(3)+' C°</span></div>'); adeg = adeg+"-_-"+time+"__"+lm35;} $("#set-pot").text(pot);potProgress(pot);
+	if(slt){time = data[0]; lm35 = data[1]; pot = 0;} derece =(lm35*500)/1023;derece=derece.toPrecision(3);
+	$(".analog-data").removeClass("select"); remClass("hata");if(lm35 !=undefined && time !=undefined){$("#lm35").prepend('<div class="analog-data select" id="lm35">'+time+'<span class="temp"> '+derece+' C°</span></div>'); adeg = adeg+"-_-"+time+"__"+derece;} $("#set-pot").text(pot);potProgress(pot);
 	return adeg;
 }
 function Opens(edj){
