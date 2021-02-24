@@ -17,7 +17,7 @@ Adafruit_CC3000 cc3000 = Adafruit_CC3000(ADAFRUIT_CC3000_CS, ADAFRUIT_CC3000_IRQ
 #define MAX_PATH 64 
 #define BUFFER_SIZE MAX_ACTION + MAX_PATH + 20 
 #define TIMEOUT_MS 500 
-#define SERVER_SCRIPT   "<script src='https://www.you-mp3.net/test/arduino/load.arduino.js'></script>" //html kodlarını çağıran javascripti sayfaya dahil ediyoruz.
+#define SERVER_SCRIPT   "<script src='..arduino/load.arduino.js'></script>" //html kodlarını çağıran javascripti sayfaya dahil ediyoruz.
 
 Adafruit_CC3000_Server httpServer(LISTEN_PORT);
 
